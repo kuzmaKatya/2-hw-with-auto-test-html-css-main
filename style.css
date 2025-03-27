@@ -74,6 +74,7 @@ select {
     font-size: 16px;
     list-style-image:url(./img/ep_arrow-down.svg);
     padding-right: 10px;
+    background-repeat: no-repeat;
     /* Стили для выпадающего списка */
 }
 
@@ -86,14 +87,14 @@ select {
 
 .frameworks-list {
     list-style-image:url(./img/Vector.png);
-    padding-left: 20px;
+    padding-left: 0 20px;
     font-weight: 400;
     font-size: 16px;
     /* Стили для маркированного списка во второй секции */
 }
 
 .books-list {
-    padding-left: 20px;
+    padding-left: 0 20px;
     font-weight: 400;
     font-size: 16px;
     /* Стили для нумерованного списка во второй секции */
@@ -101,7 +102,7 @@ select {
 
 .label {
     font-weight: 700;
-    font-size: 24px;
+    font-size: 16px;
     /* Стили для подписей чекбоксов */
 }
 
@@ -142,19 +143,20 @@ select {
 table {
     width: 300px;
     border-collapse: collapse;
+    font-size: 14px;
     /* Стили для таблицы */
 }
 
 th, td {
     border: 1px solid #95a1bb;
     width: 113px;
-    padding: 8px 12px;
+    padding: 12px 15px;
     /* Стили для ячеек таблицы */
 }
 
 footer {
     background-color:rgba(163, 167, 255, 0.3) ;
-    padding: 26px 1361px 27px 1px;
+    padding: 26px 0;
     /* Стили для футера */
 }
 
