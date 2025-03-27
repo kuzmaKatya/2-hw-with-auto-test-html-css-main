@@ -88,15 +88,13 @@ select {
 .frameworks-list {
     list-style-image:url(./img/Vector.png);
     padding-left: 0 20px;
-    font-weight: 400;
-    font-size: 16px;
+    
     /* Стили для маркированного списка во второй секции */
 }
 
 .books-list {
     padding-left: 0 20px;
-    font-weight: 400;
-    font-size: 16px;
+    
     /* Стили для нумерованного списка во второй секции */
 }
 
